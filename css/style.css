@@ -1,0 +1,16 @@
+body{
+  padding-top: 60px;
+}
+
+.row-margin-bottom{
+  margin-bottom: 20px;
+}
+
+.anchor{
+    position: absolute;
+    top: -60px;
+}
+
+.fill-page{
+  margin-bottom: 500px
+}
