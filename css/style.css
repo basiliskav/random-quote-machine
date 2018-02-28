@@ -1,9 +1,14 @@
 body{
-  background-color: blue;
+  /*background-image:  url("../images/test.jpg");*/
+  background-color: #20232c;
   padding-top: 60px;
 }
 
-.row-margin-bottom{
+h2 {
+  color: #c16161 ;
+}
+
+/*.row-margin-bottom{
   margin-bottom: 20px;
 }
 
@@ -14,4 +19,4 @@ body{
 
 .fill-page{
   margin-bottom: 500px
-}
+}*/
