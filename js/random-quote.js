@@ -4,12 +4,11 @@ function getQuote(){
   $.getJSON(api, function(result){
     $(".quote").empty();
     $(".author").empty();
-
     $(".quote").append(result.quoteText);
     $(".author").append(result.quoteAuthor);
   });
 }
-
+// Run when the page loads
 getQuote();
 
 $(document).ready(function() {  
@@ -17,6 +16,3 @@ $(document).ready(function() {
     getQuote();
   });
 });
-
-
-
