@@ -6,42 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Random Quote Machine</title>
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row text-center">
-        <h2>Random Quote Machine</h2>
-      </div>
-      <div class="row text-center">
-        <div class="col-xs-3"></div>
-        <div class="col-xs-6 well">
-          <div class="row">
-            <p class="quote px-4"></p>
-          </div>
-          <div class="row author">
-
-          </div>          
+    <div class="container-fluid bg">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 text-center">
+          <h1>Random Quote Machine</h1>  
         </div>
-        <div class="col-xs-3"></div>
-
-      </div>
-      <div class="row text-center">
-        <div class="col-xs-12">
-          <button id="getQuote" class="btn btn-primary">
-            New Quote
-          </button>
+        <div class="col-sm-6 col-md-6">
+          <div class="card bg-light mb-3">
+            <div class="card-body">
+              <div class="card-text">
+                <p class="quote"></p>
+                <p class="author"></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <button id="getQuote" class="btn btn-info btn-block">New Quote</button>
+            </div>
+            <div class="col-6">
+              <button id="" class="btn btn-info btn-block">Tweet</button>
+            </div>  
+          </div>
         </div>
       </div>
     </div>
-
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/random-quote.js"></script>
-
   </body>
 </html>

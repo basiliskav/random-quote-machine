@@ -5,7 +5,7 @@ function getQuote(){
     $(".quote").empty();
     $(".author").empty();
     $(".quote").append(result.quoteText);
-    $(".author").append(result.quoteAuthor);
+    $(".author").append("- " + result.quoteAuthor + " -");
   });
 }
 // Run when the page loads

@@ -1,21 +1,34 @@
-body{
-  background-color: #20232c;
-  padding-top: 60px;
+body, html{
+  height: 100%; 
+  font-family: Montserrat, Arial, Helvetica, sans-serif !important;
 }
 
-h2 {
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Regular.otf");
+}
+
+.bg {
+  padding-top: 60px;
+  height: 100%; 
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
   color: #c16161 ;
 }
 
-/*.row-margin-bottom{
-  margin-bottom: 20px;
+.author {
+  text-align: right;
 }
 
-.anchor{
-    position: absolute;
-    top: -60px;
+.quote {
+  font-style: italic;
 }
 
-.fill-page{
-  margin-bottom: 500px
-}*/
+.bg-light {
+  background-color: #f8f9fac7!important;
+}
