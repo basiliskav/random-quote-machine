@@ -7,12 +7,16 @@ function getQuote(){
     $(".quote").append(result.quoteText);
     $(".author").append("- " + result.quoteAuthor + " -");
   });
-}
-// Run when the page loads
-getQuote();
 
-$(document).ready(function() {  
-  $("#getQuote").on("click", function() {
-    getQuote();
-  });
+  // $('#tweetQuote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quoteText + '" ' + quoteAuthor));
+}
+
+$(document).ready(function() { 
+	getQuote(); 
+	$("#getQuote").on("click", getQuote);
+	 //  $('#tweetQuote').on('click', function() {
+  //   if(!inIframe()) {
+  //     openURL('https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quoteText + '" ' + quoteAuthor));
+  //   }
+  // });
 });
